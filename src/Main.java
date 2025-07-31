@@ -30,13 +30,14 @@ public class Main {
 class Dog implements  Animal{
     @Override
     public void sound() {
-        System.out.println("bark");
+        System.out.println("bark bark");
     }
 }
 
 class  Cat implements  Animal{
     @Override
     public void sound() {
-        System.out.println("meow");
+        String so ="meow meow";
+        System.out.printf("%s",so);
     }
 }
